@@ -1,0 +1,33 @@
+
+*** ChampSim Multicore Out-of-Order Simulator ***
+
+Warmup Instructions: 25000000
+Simulation Instructions: 100000000
+Number of CPUs: 1
+LLC sets: 2048
+LLC ways: 16
+Off-chip DRAM Size: 4096 MB Channels: 1 Width: 64-bit Data Rate: 6400 MT/s
+CPU 0 runs ./429.mcf-217B.champsimtrace.xz
+AAAAA
+.xz
+./429.mcf-217B.champsimtrace.xz 0
+ABDUBDIBDIBDIBD
+0x25ec9f70
+CPU 0 runs ./445.gobmk-17B.champsimtrace.xz
+AAAAA
+.xz
+./445.gobmk-17B.champsimtrace.xz 1
+0x25eca210
+CPU 0 runs ./447.dealII-3B.champsimtrace.xz
+AAAAA
+.xz
+./447.dealII-3B.champsimtrace.xz 2
+0x25eca4b0
+CPU 0 runs ./456.hmmer-191B.champsimtrace.xz
+AAAAA
+.xz
+./456.hmmer-191B.champsimtrace.xz 3
+0x25eca750
+CPU 0 runs ./400.perlbench-41B.champsimtrace.xz
+AAAAA
+.xz

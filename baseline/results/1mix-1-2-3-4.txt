@@ -1,0 +1,112 @@
+
+*** ChampSim Multicore Out-of-Order Simulator ***
+
+Warmup Instructions: 25000000
+Simulation Instructions: 100000000
+Number of CPUs: 1
+LLC sets: 2048
+LLC ways: 16
+Off-chip DRAM Size: 4096 MB Channels: 1 Width: 64-bit Data Rate: 6400 MT/s
+CPU 0 runs ./400.perlbench-41B.champsimtrace.xz
+AAAAA
+.xz
+./400.perlbench-41B.champsimtrace.xz 0
+ABDUBDIBDIBDIBD
+0x28bd3f70
+CPU 0 runs ./403.gcc-17B.champsimtrace.xz
+AAAAA
+.xz
+./403.gcc-17B.champsimtrace.xz 1
+0x28bd4210
+CPU 0 runs ./429.mcf-217B.champsimtrace.xz
+AAAAA
+.xz
+./429.mcf-217B.champsimtrace.xz 2
+0x28bd44b0
+CPU 0 runs ./445.gobmk-17B.champsimtrace.xz
+AAAAA
+.xz
+./445.gobmk-17B.champsimtrace.xz 3
+0x28bd4750
+CPU 0 Bimodal branch predictor
+BTB has LRU replacement policy
+ITLB has LRU replacement policy
+DTLB has LRU replacement policy
+STLB has LRU replacement policy
+L1I has LRU replacement policy
+L1D has LRU replacement policy
+L2C has LRU replacement policy
+LLC has LRU replacement policy
+Heartbeat CPU 0 instructions: 10000002 cycles: 3643828 heartbeat IPC: 2.74437 cumulative IPC: 2.74437 (Simulation time: 0 hr 0 min 27 sec) 
+Heartbeat CPU 0 instructions: 20000001 cycles: 7385650 heartbeat IPC: 2.67249 cumulative IPC: 2.70795 (Simulation time: 0 hr 0 min 54 sec) 
+
+Warmup complete CPU 0 instructions: 25000002 cycles: 8956259 (Simulation time: 0 hr 1 min 8 sec) 
+
+Before Swap:
+Trace File 1: 0x28bd4600
+Trace File 2: 0x28bd4210
+Gunzip Command 1: xz -dc ./400.perlbench-41B.champsimtrace.xz
+Gunzip Command 2: xz -dc ./403.gcc-17B.champsimtrace.xz
+0x28bd4210 : 1 curr: 0
+0x28bd4600 : 0
+After Swap:
+Trace File 1: 0x28bd4210
+Trace File 2: 0x28bd4600
+Gunzip Command 1: xz -dc ./403.gcc-17B.champsimtrace.xz
+Gunzip Command 2: xz -dc ./400.perlbench-41B.champsimtrace.xz
+Milja yr
+Successfully read from the swapped trace file.
+again: 1
+swap_traces called30000000
+random_inst = 13044280
+Heartbeat CPU 0 instructions: 30000001 cycles: 20928025 heartbeat IPC: 0.738423 cumulative IPC: 0.417649 (Simulation time: 0 hr 1 min 24 sec) 
+Heartbeat CPU 0 instructions: 40000002 cycles: 62517480 heartbeat IPC: 0.240446 cumulative IPC: 0.280053 (Simulation time: 0 hr 2 min 1 sec) 
+Before Swap:
+Trace File 1: 0x28bd4210
+Trace File 2: 0x28bd44b0
+Gunzip Command 1: xz -dc ./403.gcc-17B.champsimtrace.xz
+Gunzip Command 2: xz -dc ./429.mcf-217B.champsimtrace.xz
+0x28bd44b0 : 2 curr: 1
+0x28bd4210 : 1
+After Swap:
+Trace File 1: 0x28bd44b0
+Trace File 2: 0x28bd4210
+Gunzip Command 1: xz -dc ./429.mcf-217B.champsimtrace.xz
+Gunzip Command 2: xz -dc ./403.gcc-17B.champsimtrace.xz
+Milja yr
+Successfully read from the swapped trace file.
+again: 0
+swap_traces called43044280
+random_inst = 10227010
+Heartbeat CPU 0 instructions: 50000002 cycles: 94682127 heartbeat IPC: 0.3109 cumulative IPC: 0.291627 (Simulation time: 0 hr 2 min 38 sec) 
+Before Swap:
+Trace File 1: 0x28bd44b0
+Trace File 2: 0x28bd4600
+Gunzip Command 1: xz -dc ./429.mcf-217B.champsimtrace.xz
+Gunzip Command 2: xz -dc ./400.perlbench-41B.champsimtrace.xz
+0x28bd4600 : 0 curr: 0
+0x28bd44b0 : 2
+After Swap:
+Trace File 1: 0x28bd4600
+Trace File 2: 0x28bd44b0
+Gunzip Command 1: xz -dc ./400.perlbench-41B.champsimtrace.xz
+Gunzip Command 2: xz -dc ./429.mcf-217B.champsimtrace.xz
+Milja yr
+Successfully read from the swapped trace file.
+again: 4
+swap_traces called53271290
+random_inst = 14385890
+Heartbeat CPU 0 instructions: 60000002 cycles: 119136075 heartbeat IPC: 0.408932 cumulative IPC: 0.317663 (Simulation time: 0 hr 3 min 11 sec) 
+Before Swap:
+Trace File 1: 0x28bd4600
+Trace File 2: 0
+Gunzip Command 1: xz -dc ./400.perlbench-41B.champsimtrace.xz
+Gunzip Command 2: 
+0 : 0 curr: 4
+0x28bd4600 : 0
+After Swap:
+Trace File 1: 0
+Trace File 2: 0x28bd4600
+Gunzip Command 1: 
+Gunzip Command 2: xz -dc ./400.perlbench-41B.champsimtrace.xz
+Milja yr
