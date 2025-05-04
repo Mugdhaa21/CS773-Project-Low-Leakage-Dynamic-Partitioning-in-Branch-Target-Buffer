@@ -59,7 +59,7 @@
 
 // CPU
 #define NUM_CPUS 1
-#define NUM_TRACES 8
+#define NUM_TRACES 6
 #define CPU_FREQ 4000
 //#define DRAM_IO_FREQ 6400	//1600	Neelu: Changed 
 #define DRAM_IO_FREQ 6400 

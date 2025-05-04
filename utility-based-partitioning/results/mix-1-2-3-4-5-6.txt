@@ -1,0 +1,148 @@
+
+*** ChampSim Multicore Out-of-Order Simulator ***
+
+Warmup Instructions: 25000000
+Simulation Instructions: 100000000
+Number of CPUs: 1
+LLC sets: 2048
+LLC ways: 16
+Off-chip DRAM Size: 4096 MB Channels: 1 Width: 64-bit Data Rate: 6400 MT/s
+CPU 0 runs ../utility-based-partitioning/server_036.champsimtrace.xz
+AAAAA
+.xz
+../utility-based-partitioning/server_036.champsimtrace.xz 0
+ABDUBDIBDIBDIBD
+0x10cd1f20
+CPU 0 runs ../utility-based-partitioning/server_037.champsimtrace.xz
+AAAAA
+.xz
+../utility-based-partitioning/server_037.champsimtrace.xz 1
+0x10cd21c0
+CPU 0 runs ../utility-based-partitioning/server_038.champsimtrace.xz
+AAAAA
+.xz
+../utility-based-partitioning/server_038.champsimtrace.xz 2
+0x10cd2460
+CPU 0 runs ../utility-based-partitioning/server_039.champsimtrace.xz
+AAAAA
+.xz
+../utility-based-partitioning/server_039.champsimtrace.xz 3
+0x10cd2700
+CPU 0 runs ../utility-based-partitioning/server_034.champsimtrace.xz
+AAAAA
+.xz
+../utility-based-partitioning/server_034.champsimtrace.xz 4
+0x10cd2bf0
+CPU 0 runs ../utility-based-partitioning/server_033.champsimtrace.xz
+AAAAA
+.xz
+../utility-based-partitioning/server_033.champsimtrace.xz 5
+0x10cd32b0
+CPU 0 Bimodal branch predictor
+BTB has LRU replacement policy
+ITLB has LRU replacement policy
+DTLB has LRU replacement policy
+STLB has LRU replacement policy
+L1I has LRU replacement policy
+L1D has LRU replacement policy
+L2C has LRU replacement policy
+LLC has LRU replacement policy
+Heartbeat CPU 0 instructions: 10000000 cycles: 2718070 heartbeat IPC: 3.67908 cumulative IPC: 3.67908 (Simulation time: 0 hr 0 min 40 sec) 
+Heartbeat CPU 0 instructions: 20000002 cycles: 5435387 heartbeat IPC: 3.6801 cumulative IPC: 3.67959 (Simulation time: 0 hr 1 min 20 sec) 
+
+Warmup complete CPU 0 instructions: 25000001 cycles: 6793648 (Simulation time: 0 hr 1 min 40 sec) 
+
+Before Swap:
+Trace File 1: 0x10cd2f50
+Trace File 2: 0x10cd21c0
+Gunzip Command 1: xz -dc ../utility-based-partitioning/server_036.champsimtrace.xz
+Gunzip Command 2: xz -dc ../utility-based-partitioning/server_037.champsimtrace.xz
+0x10cd21c0 : 1 curr: 0
+0x10cd2f50 : 0
+After Swap:
+Trace File 1: 0x10cd21c0
+Trace File 2: 0x10cd2460
+Gunzip Command 1: xz -dc ../utility-based-partitioning/server_037.champsimtrace.xz
+Gunzip Command 2: xz -dc ../utility-based-partitioning/server_038.champsimtrace.xz
+Successfully read from the swapped trace file.
+again: 6
+2000025 check cycles 
+Trace 0: 0 0 0 0 0 0 
+Trace 1: 19352 24651 35987 47637 62080 74427 
+Trace 2: 0 0 0 0 0 0 
+Trace 3: 0 0 0 0 0 0 
+Trace 4: 0 0 0 0 0 0 
+Trace 5: 0 0 0 0 0 0 
+Trace 6: 0 0 0 0 0 0 
+Trace 7: 0 0 0 0 0 0 
+Best Partition: 16 512 16 16 16 64 128 256 
+2000009 check cycles 
+Trace 0: 0 0 0 0 0 0 
+Trace 1: 56015 70206 100460 132033 170445 203604 
+Trace 2: 0 0 0 0 0 0 
+Trace 3: 0 0 0 0 0 0 
+Trace 4: 0 0 0 0 0 0 
+Trace 5: 0 0 0 0 0 0 
+Trace 6: 0 0 0 0 0 0 
+Trace 7: 0 0 0 0 0 0 
+Best Partition: 16 512 16 16 16 64 128 256 
+2000011 check cycles 
+Trace 0: 0 0 0 0 0 0 
+Trace 1: 94474 119265 171970 227185 294325 352004 
+Trace 2: 0 0 0 0 0 0 
+Trace 3: 0 0 0 0 0 0 
+Trace 4: 0 0 0 0 0 0 
+Trace 5: 0 0 0 0 0 0 
+Trace 6: 0 0 0 0 0 0 
+Trace 7: 0 0 0 0 0 0 
+Best Partition: 16 512 16 16 16 64 128 256 
+2000027 check cycles 
+Trace 0: 0 0 0 0 0 0 
+Trace 1: 132847 168206 243534 322463 418401 500948 
+Trace 2: 0 0 0 0 0 0 
+Trace 3: 0 0 0 0 0 0 
+Trace 4: 0 0 0 0 0 0 
+Trace 5: 0 0 0 0 0 0 
+Trace 6: 0 0 0 0 0 0 
+Trace 7: 0 0 0 0 0 0 
+Best Partition: 16 512 16 16 16 64 128 256 
+2000050 check cycles 
+Trace 0: 0 0 0 0 0 0 
+Trace 1: 175028 220908 318628 421006 545366 652515 
+Trace 2: 0 0 0 0 0 0 
+Trace 3: 0 0 0 0 0 0 
+Trace 4: 0 0 0 0 0 0 
+Trace 5: 0 0 0 0 0 0 
+Trace 6: 0 0 0 0 0 0 
+Trace 7: 0 0 0 0 0 0 
+Best Partition: 16 512 16 16 16 64 128 256 
+2000018 check cycles 
+Trace 0: 0 0 0 0 0 0 
+Trace 1: 214395 271154 391294 516505 669413 801511 
+Trace 2: 0 0 0 0 0 0 
+Trace 3: 0 0 0 0 0 0 
+Trace 4: 0 0 0 0 0 0 
+Trace 5: 0 0 0 0 0 0 
+Trace 6: 0 0 0 0 0 0 
+Trace 7: 0 0 0 0 0 0 
+Best Partition: 16 512 16 16 16 64 128 256 
+2000040 check cycles 
+Trace 0: 0 0 0 0 0 0 
+Trace 1: 253837 321450 464055 612247 793776 950762 
+Trace 2: 0 0 0 0 0 0 
+Trace 3: 0 0 0 0 0 0 
+Trace 4: 0 0 0 0 0 0 
+Trace 5: 0 0 0 0 0 0 
+Trace 6: 0 0 0 0 0 0 
+Trace 7: 0 0 0 0 0 0 
+Best Partition: 16 512 16 16 16 64 128 256 
+2000001 check cycles 
+Trace 0: 0 0 0 0 0 0 
+Trace 1: 293324 371871 537138 708336 918828 1100983 
+Trace 2: 0 0 0 0 0 0 
+Trace 3: 0 0 0 0 0 0 
+Trace 4: 0 0 0 0 0 0 
+Trace 5: 0 0 0 0 0 0 
+Trace 6: 0 0 0 0 0 0 
+Trace 7: 0 0 0 0 0 0 
+Best Partition: 16 512 16 16 16 64 128 256 

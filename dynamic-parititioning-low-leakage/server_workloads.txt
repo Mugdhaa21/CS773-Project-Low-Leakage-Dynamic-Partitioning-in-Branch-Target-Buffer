@@ -1,0 +1,9 @@
+server_036.champsimtrace.xz
+server_037.champsimtrace.xz
+server_038.champsimtrace.xz
+server_039.champsimtrace.xz
+server_034.champsimtrace.xz
+server_033.champsimtrace.xz
+server_032.champsimtrace.xz
+server_031.champsimtrace.xz
+server_030.champsimtrace.xz

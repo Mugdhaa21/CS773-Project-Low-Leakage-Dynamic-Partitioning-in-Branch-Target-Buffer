@@ -1807,6 +1807,11 @@ int main(int argc, char** argv)
     }
 
     cout << endl << "Region of Interest Statistics" << endl;
+    //anbhoir  and muggu
+    for(auto it : ooo_cpu[0].miss_trace_file){
+        cout << "MPKI for " << it.first << " trace file: " << (float)it.second.first*1000/it.second.second<< endl;
+    }
+    
     for (uint32_t i=0; i<NUM_CPUS; i++) {
         cout << endl << "CPU " << i << " cumulative IPC: " << ((float) ooo_cpu[i].finish_sim_instr / ooo_cpu[i].finish_sim_cycle); 
         cout << " instructions: " << ooo_cpu[i].finish_sim_instr << " cycles: " << ooo_cpu[i].finish_sim_cycle << endl;

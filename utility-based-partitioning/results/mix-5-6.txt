@@ -1,0 +1,149 @@
+
+*** ChampSim Multicore Out-of-Order Simulator ***
+
+Warmup Instructions: 25000000
+Simulation Instructions: 100000000
+Number of CPUs: 1
+LLC sets: 2048
+LLC ways: 16
+Off-chip DRAM Size: 4096 MB Channels: 1 Width: 64-bit Data Rate: 6400 MT/s
+CPU 0 runs ./server_034.champsimtrace.xz
+AAAAA
+.xz
+./server_034.champsimtrace.xz 0
+ABDUBDIBDIBDIBD
+0x31bcfd50
+CPU 0 runs ./server_033.champsimtrace.xz
+AAAAA
+.xz
+./server_033.champsimtrace.xz 1
+0x31bcfff0
+CPU 0 Bimodal branch predictor
+BTB has LRU replacement policy
+ITLB has LRU replacement policy
+DTLB has LRU replacement policy
+STLB has LRU replacement policy
+L1I has LRU replacement policy
+L1D has LRU replacement policy
+L2C has LRU replacement policy
+LLC has LRU replacement policy
+Heartbeat CPU 0 instructions: 10000001 cycles: 2795913 heartbeat IPC: 3.57665 cumulative IPC: 3.57665 (Simulation time: 0 hr 0 min 27 sec) 
+Heartbeat CPU 0 instructions: 20000003 cycles: 5586634 heartbeat IPC: 3.5833 cumulative IPC: 3.57997 (Simulation time: 0 hr 0 min 58 sec) 
+
+Warmup complete CPU 0 instructions: 25000004 cycles: 6984087 (Simulation time: 0 hr 1 min 12 sec) 
+
+Before Swap:
+Trace File 1: 0x31bcfea0
+Trace File 2: 0x31bcfff0
+Gunzip Command 1: xz -dc ./server_034.champsimtrace.xz
+Gunzip Command 2: xz -dc ./server_033.champsimtrace.xz
+0x31bcfff0 : 1 curr: 0
+0x31bcfea0 : 0
+After Swap:
+Trace File 1: 0x31bcfff0
+Trace File 2: 0x31bcfea0
+Gunzip Command 1: xz -dc ./server_033.champsimtrace.xz
+Gunzip Command 2: xz -dc ./server_034.champsimtrace.xz
+Successfully read from the swapped trace file.
+again: 2
+2000003 check cycles 
+Trace 0: 0 0 0 0 0 0 
+Trace 1: 50493 64376 82689 102658 134885 151986 
+Trace 2: 0 0 0 0 0 0 
+Trace 3: 0 0 0 0 0 0 
+Trace 4: 0 0 0 0 0 0 
+Trace 5: 0 0 0 0 0 0 
+Trace 6: 0 0 0 0 0 0 
+Trace 7: 0 0 0 0 0 0 
+Best Partition: 16 512 16 16 16 64 128 256 
+2000053 check cycles 
+Trace 0: 0 0 0 0 0 0 
+Trace 1: 104673 138651 181908 226813 292267 327224 
+Trace 2: 0 0 0 0 0 0 
+Trace 3: 0 0 0 0 0 0 
+Trace 4: 0 0 0 0 0 0 
+Trace 5: 0 0 0 0 0 0 
+Trace 6: 0 0 0 0 0 0 
+Trace 7: 0 0 0 0 0 0 
+Best Partition: 16 512 16 16 16 64 128 256 
+2000009 check cycles 
+Trace 0: 0 0 0 0 0 0 
+Trace 1: 162173 211566 275386 342576 443994 498123 
+Trace 2: 0 0 0 0 0 0 
+Trace 3: 0 0 0 0 0 0 
+Trace 4: 0 0 0 0 0 0 
+Trace 5: 0 0 0 0 0 0 
+Trace 6: 0 0 0 0 0 0 
+Trace 7: 0 0 0 0 0 0 
+Best Partition: 16 512 16 16 16 64 128 256 
+2000140 check cycles 
+Trace 0: 0 0 0 0 0 0 
+Trace 1: 219729 284579 368951 458405 595792 669096 
+Trace 2: 0 0 0 0 0 0 
+Trace 3: 0 0 0 0 0 0 
+Trace 4: 0 0 0 0 0 0 
+Trace 5: 0 0 0 0 0 0 
+Trace 6: 0 0 0 0 0 0 
+Trace 7: 0 0 0 0 0 0 
+Best Partition: 16 512 16 16 16 64 128 256 
+2000013 check cycles 
+Trace 0: 0 0 0 0 0 0 
+Trace 1: 277371 357655 462599 574338 747636 840124 
+Trace 2: 0 0 0 0 0 0 
+Trace 3: 0 0 0 0 0 0 
+Trace 4: 0 0 0 0 0 0 
+Trace 5: 0 0 0 0 0 0 
+Trace 6: 0 0 0 0 0 0 
+Trace 7: 0 0 0 0 0 0 
+Best Partition: 16 512 16 16 16 64 128 256 
+2000257 check cycles 
+Trace 0: 0 0 0 0 0 0 
+Trace 1: 334937 430678 556194 690208 899458 1011124 
+Trace 2: 0 0 0 0 0 0 
+Trace 3: 0 0 0 0 0 0 
+Trace 4: 0 0 0 0 0 0 
+Trace 5: 0 0 0 0 0 0 
+Trace 6: 0 0 0 0 0 0 
+Trace 7: 0 0 0 0 0 0 
+Best Partition: 16 512 16 16 16 64 128 256 
+2000016 check cycles 
+Trace 0: 0 0 0 0 0 0 
+Trace 1: 392162 503435 649225 805231 1050564 1181799 
+Trace 2: 0 0 0 0 0 0 
+Trace 3: 0 0 0 0 0 0 
+Trace 4: 0 0 0 0 0 0 
+Trace 5: 0 0 0 0 0 0 
+Trace 6: 0 0 0 0 0 0 
+Trace 7: 0 0 0 0 0 0 
+Best Partition: 16 512 16 16 16 64 128 256 
+2000018 check cycles 
+Trace 0: 0 0 0 0 0 0 
+Trace 1: 449677 576407 742674 920909 1202234 1352598 
+Trace 2: 0 0 0 0 0 0 
+Trace 3: 0 0 0 0 0 0 
+Trace 4: 0 0 0 0 0 0 
+Trace 5: 0 0 0 0 0 0 
+Trace 6: 0 0 0 0 0 0 
+Trace 7: 0 0 0 0 0 0 
+Best Partition: 16 512 16 16 16 64 128 256 
+2000005 check cycles 
+Trace 0: 0 0 0 0 0 0 
+Trace 1: 509883 652518 840016 1041219 1359135 1529509 
+Trace 2: 0 0 0 0 0 0 
+Trace 3: 0 0 0 0 0 0 
+Trace 4: 0 0 0 0 0 0 
+Trace 5: 0 0 0 0 0 0 
+Trace 6: 0 0 0 0 0 0 
+Trace 7: 0 0 0 0 0 0 
+Best Partition: 16 512 16 16 16 64 128 256 
+2000013 check cycles 
+Trace 0: 0 0 0 0 0 0 
+Trace 1: 569478 733778 948272 1176996 1532786 1723291 
+Trace 2: 0 0 0 0 0 0 
+Trace 3: 0 0 0 0 0 0 
+Trace 4: 0 0 0 0 0 0 
+Trace 5: 0 0 0 0 0 0 
+Trace 6: 0 0 0 0 0 0 
+Trace 7: 0 0 0 0 0 0 
+Best Partition: 16 512 16 16 16 64 128 256 
+Heartbeat CPU 0 instructions: 30000002 cycles: 27718766 heartbeat IPC: 0.451832 cumulative IPC: 0.241142 (Simulation time: 0 hr 2 min 4 sec) 

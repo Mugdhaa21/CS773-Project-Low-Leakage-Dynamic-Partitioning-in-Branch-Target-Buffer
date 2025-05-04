@@ -1,0 +1,520 @@
+
+*** ChampSim Multicore Out-of-Order Simulator ***
+
+Warmup Instructions: 25000000
+Simulation Instructions: 100000000
+Number of CPUs: 1
+LLC sets: 2048
+LLC ways: 16
+Off-chip DRAM Size: 4096 MB Channels: 1 Width: 64-bit Data Rate: 6400 MT/s
+CPU 0 runs ../utility-based-partitioning/server_032.champsimtrace.xz
+AAAAA
+.xz
+../utility-based-partitioning/server_032.champsimtrace.xz 0
+ABDUBDIBDIBDIBD
+0x2674c460
+CPU 0 runs ../utility-based-partitioning/server_031.champsimtrace.xz
+AAAAA
+.xz
+../utility-based-partitioning/server_031.champsimtrace.xz 1
+0x2674c700
+CPU 0 Bimodal branch predictor
+BTB has LRU replacement policy
+ITLB has LRU replacement policy
+DTLB has LRU replacement policy
+STLB has LRU replacement policy
+L1I has LRU replacement policy
+L1D has LRU replacement policy
+L2C has LRU replacement policy
+LLC has LRU replacement policy
+Heartbeat CPU 0 instructions: 10000000 cycles: 2820742 heartbeat IPC: 3.54517 cumulative IPC: 3.54517 (Simulation time: 0 hr 0 min 40 sec) 
+Heartbeat CPU 0 instructions: 20000000 cycles: 5639069 heartbeat IPC: 3.5482 cumulative IPC: 3.54668 (Simulation time: 0 hr 1 min 12 sec) 
+
+Warmup complete CPU 0 instructions: 25000002 cycles: 7048695 (Simulation time: 0 hr 1 min 25 sec) 
+
+Before Swap:
+Trace File 1: 0x2674c5b0
+Trace File 2: 0x2674c700
+Gunzip Command 1: xz -dc ../utility-based-partitioning/server_032.champsimtrace.xz
+Gunzip Command 2: xz -dc ../utility-based-partitioning/server_031.champsimtrace.xz
+0x2674c700 : 1 curr: 0
+0x2674c5b0 : 0
+After Swap:
+Trace File 1: 0x2674c700
+Trace File 2: 0x2674c5b0
+Gunzip Command 1: xz -dc ../utility-based-partitioning/server_031.champsimtrace.xz
+Gunzip Command 2: xz -dc ../utility-based-partitioning/server_032.champsimtrace.xz
+Successfully read from the swapped trace file.
+again: 0
+Heartbeat CPU 0 instructions: 30000000 cycles: 28799474 heartbeat IPC: 0.431771 cumulative IPC: 0.229877 (Simulation time: 0 hr 2 min 3 sec) 
+Before Swap:
+Trace File 1: 0x2674c700
+Trace File 2: 0x2674c5b0
+Gunzip Command 1: xz -dc ../utility-based-partitioning/server_031.champsimtrace.xz
+Gunzip Command 2: xz -dc ../utility-based-partitioning/server_032.champsimtrace.xz
+0x2674c5b0 : 0 curr: 0
+0x2674c700 : 1
+After Swap:
+Trace File 1: 0x2674c5b0
+Trace File 2: 0x2674c700
+Gunzip Command 1: xz -dc ../utility-based-partitioning/server_032.champsimtrace.xz
+Gunzip Command 2: xz -dc ../utility-based-partitioning/server_031.champsimtrace.xz
+Successfully read from the swapped trace file.
+again: 0
+Before Swap:
+Trace File 1: 0x2674c5b0
+Trace File 2: 0x2674c700
+Gunzip Command 1: xz -dc ../utility-based-partitioning/server_032.champsimtrace.xz
+Gunzip Command 2: xz -dc ../utility-based-partitioning/server_031.champsimtrace.xz
+0x2674c700 : 1 curr: 0
+0x2674c5b0 : 0
+After Swap:
+Trace File 1: 0x2674c700
+Trace File 2: 0x2674c5b0
+Gunzip Command 1: xz -dc ../utility-based-partitioning/server_031.champsimtrace.xz
+Gunzip Command 2: xz -dc ../utility-based-partitioning/server_032.champsimtrace.xz
+Successfully read from the swapped trace file.
+again: 0
+Heartbeat CPU 0 instructions: 40000000 cycles: 70932163 heartbeat IPC: 0.237345 cumulative IPC: 0.234802 (Simulation time: 0 hr 3 min 47 sec) 
+Before Swap:
+Trace File 1: 0x2674c700
+Trace File 2: 0x2674c5b0
+Gunzip Command 1: xz -dc ../utility-based-partitioning/server_031.champsimtrace.xz
+Gunzip Command 2: xz -dc ../utility-based-partitioning/server_032.champsimtrace.xz
+0x2674c5b0 : 0 curr: 0
+0x2674c700 : 1
+After Swap:
+Trace File 1: 0x2674c5b0
+Trace File 2: 0x2674c700
+Gunzip Command 1: xz -dc ../utility-based-partitioning/server_032.champsimtrace.xz
+Gunzip Command 2: xz -dc ../utility-based-partitioning/server_031.champsimtrace.xz
+Successfully read from the swapped trace file.
+again: 0
+Before Swap:
+Trace File 1: 0x2674c5b0
+Trace File 2: 0x2674c700
+Gunzip Command 1: xz -dc ../utility-based-partitioning/server_032.champsimtrace.xz
+Gunzip Command 2: xz -dc ../utility-based-partitioning/server_031.champsimtrace.xz
+0x2674c700 : 1 curr: 0
+0x2674c5b0 : 0
+After Swap:
+Trace File 1: 0x2674c700
+Trace File 2: 0x2674c5b0
+Gunzip Command 1: xz -dc ../utility-based-partitioning/server_031.champsimtrace.xz
+Gunzip Command 2: xz -dc ../utility-based-partitioning/server_032.champsimtrace.xz
+Successfully read from the swapped trace file.
+again: 0
+Heartbeat CPU 0 instructions: 50000002 cycles: 112951801 heartbeat IPC: 0.237984 cumulative IPC: 0.236065 (Simulation time: 0 hr 5 min 50 sec) 
+Before Swap:
+Trace File 1: 0x2674c700
+Trace File 2: 0x2674c5b0
+Gunzip Command 1: xz -dc ../utility-based-partitioning/server_031.champsimtrace.xz
+Gunzip Command 2: xz -dc ../utility-based-partitioning/server_032.champsimtrace.xz
+0x2674c5b0 : 0 curr: 0
+0x2674c700 : 1
+After Swap:
+Trace File 1: 0x2674c5b0
+Trace File 2: 0x2674c700
+Gunzip Command 1: xz -dc ../utility-based-partitioning/server_032.champsimtrace.xz
+Gunzip Command 2: xz -dc ../utility-based-partitioning/server_031.champsimtrace.xz
+Successfully read from the swapped trace file.
+again: 0
+Before Swap:
+Trace File 1: 0x2674c5b0
+Trace File 2: 0x2674c700
+Gunzip Command 1: xz -dc ../utility-based-partitioning/server_032.champsimtrace.xz
+Gunzip Command 2: xz -dc ../utility-based-partitioning/server_031.champsimtrace.xz
+0x2674c700 : 1 curr: 0
+0x2674c5b0 : 0
+After Swap:
+Trace File 1: 0x2674c700
+Trace File 2: 0x2674c5b0
+Gunzip Command 1: xz -dc ../utility-based-partitioning/server_031.champsimtrace.xz
+Gunzip Command 2: xz -dc ../utility-based-partitioning/server_032.champsimtrace.xz
+Successfully read from the swapped trace file.
+again: 0
+Heartbeat CPU 0 instructions: 60000002 cycles: 155095921 heartbeat IPC: 0.237281 cumulative IPC: 0.236411 (Simulation time: 0 hr 8 min 0 sec) 
+Before Swap:
+Trace File 1: 0x2674c700
+Trace File 2: 0x2674c5b0
+Gunzip Command 1: xz -dc ../utility-based-partitioning/server_031.champsimtrace.xz
+Gunzip Command 2: xz -dc ../utility-based-partitioning/server_032.champsimtrace.xz
+0x2674c5b0 : 0 curr: 0
+0x2674c700 : 1
+After Swap:
+Trace File 1: 0x2674c5b0
+Trace File 2: 0x2674c700
+Gunzip Command 1: xz -dc ../utility-based-partitioning/server_032.champsimtrace.xz
+Gunzip Command 2: xz -dc ../utility-based-partitioning/server_031.champsimtrace.xz
+Successfully read from the swapped trace file.
+again: 0
+Before Swap:
+Trace File 1: 0x2674c5b0
+Trace File 2: 0x2674c700
+Gunzip Command 1: xz -dc ../utility-based-partitioning/server_032.champsimtrace.xz
+Gunzip Command 2: xz -dc ../utility-based-partitioning/server_031.champsimtrace.xz
+0x2674c700 : 1 curr: 0
+0x2674c5b0 : 0
+After Swap:
+Trace File 1: 0x2674c700
+Trace File 2: 0x2674c5b0
+Gunzip Command 1: xz -dc ../utility-based-partitioning/server_031.champsimtrace.xz
+Gunzip Command 2: xz -dc ../utility-based-partitioning/server_032.champsimtrace.xz
+Successfully read from the swapped trace file.
+again: 0
+Heartbeat CPU 0 instructions: 70000000 cycles: 197158501 heartbeat IPC: 0.237741 cumulative IPC: 0.236705 (Simulation time: 0 hr 9 min 48 sec) 
+Before Swap:
+Trace File 1: 0x2674c700
+Trace File 2: 0x2674c5b0
+Gunzip Command 1: xz -dc ../utility-based-partitioning/server_031.champsimtrace.xz
+Gunzip Command 2: xz -dc ../utility-based-partitioning/server_032.champsimtrace.xz
+0x2674c5b0 : 0 curr: 0
+0x2674c700 : 1
+After Swap:
+Trace File 1: 0x2674c5b0
+Trace File 2: 0x2674c700
+Gunzip Command 1: xz -dc ../utility-based-partitioning/server_032.champsimtrace.xz
+Gunzip Command 2: xz -dc ../utility-based-partitioning/server_031.champsimtrace.xz
+Successfully read from the swapped trace file.
+again: 0
+Before Swap:
+Trace File 1: 0x2674c5b0
+Trace File 2: 0x2674c700
+Gunzip Command 1: xz -dc ../utility-based-partitioning/server_032.champsimtrace.xz
+Gunzip Command 2: xz -dc ../utility-based-partitioning/server_031.champsimtrace.xz
+0x2674c700 : 1 curr: 0
+0x2674c5b0 : 0
+After Swap:
+Trace File 1: 0x2674c700
+Trace File 2: 0x2674c5b0
+Gunzip Command 1: xz -dc ../utility-based-partitioning/server_031.champsimtrace.xz
+Gunzip Command 2: xz -dc ../utility-based-partitioning/server_032.champsimtrace.xz
+Successfully read from the swapped trace file.
+again: 0
+Heartbeat CPU 0 instructions: 80000000 cycles: 239145317 heartbeat IPC: 0.23817 cumulative IPC: 0.23697 (Simulation time: 0 hr 12 min 0 sec) 
+Before Swap:
+Trace File 1: 0x2674c700
+Trace File 2: 0x2674c5b0
+Gunzip Command 1: xz -dc ../utility-based-partitioning/server_031.champsimtrace.xz
+Gunzip Command 2: xz -dc ../utility-based-partitioning/server_032.champsimtrace.xz
+0x2674c5b0 : 0 curr: 0
+0x2674c700 : 1
+After Swap:
+Trace File 1: 0x2674c5b0
+Trace File 2: 0x2674c700
+Gunzip Command 1: xz -dc ../utility-based-partitioning/server_032.champsimtrace.xz
+Gunzip Command 2: xz -dc ../utility-based-partitioning/server_031.champsimtrace.xz
+Successfully read from the swapped trace file.
+again: 0
+Before Swap:
+Trace File 1: 0x2674c5b0
+Trace File 2: 0x2674c700
+Gunzip Command 1: xz -dc ../utility-based-partitioning/server_032.champsimtrace.xz
+Gunzip Command 2: xz -dc ../utility-based-partitioning/server_031.champsimtrace.xz
+0x2674c700 : 1 curr: 0
+0x2674c5b0 : 0
+After Swap:
+Trace File 1: 0x2674c700
+Trace File 2: 0x2674c5b0
+Gunzip Command 1: xz -dc ../utility-based-partitioning/server_031.champsimtrace.xz
+Gunzip Command 2: xz -dc ../utility-based-partitioning/server_032.champsimtrace.xz
+Successfully read from the swapped trace file.
+again: 0
+Heartbeat CPU 0 instructions: 90000003 cycles: 281140188 heartbeat IPC: 0.238124 cumulative IPC: 0.237147 (Simulation time: 0 hr 13 min 42 sec) 
+Before Swap:
+Trace File 1: 0x2674c700
+Trace File 2: 0x2674c5b0
+Gunzip Command 1: xz -dc ../utility-based-partitioning/server_031.champsimtrace.xz
+Gunzip Command 2: xz -dc ../utility-based-partitioning/server_032.champsimtrace.xz
+0x2674c5b0 : 0 curr: 0
+0x2674c700 : 1
+After Swap:
+Trace File 1: 0x2674c5b0
+Trace File 2: 0x2674c700
+Gunzip Command 1: xz -dc ../utility-based-partitioning/server_032.champsimtrace.xz
+Gunzip Command 2: xz -dc ../utility-based-partitioning/server_031.champsimtrace.xz
+Successfully read from the swapped trace file.
+again: 0
+Before Swap:
+Trace File 1: 0x2674c5b0
+Trace File 2: 0x2674c700
+Gunzip Command 1: xz -dc ../utility-based-partitioning/server_032.champsimtrace.xz
+Gunzip Command 2: xz -dc ../utility-based-partitioning/server_031.champsimtrace.xz
+0x2674c700 : 1 curr: 0
+0x2674c5b0 : 0
+After Swap:
+Trace File 1: 0x2674c700
+Trace File 2: 0x2674c5b0
+Gunzip Command 1: xz -dc ../utility-based-partitioning/server_031.champsimtrace.xz
+Gunzip Command 2: xz -dc ../utility-based-partitioning/server_032.champsimtrace.xz
+Successfully read from the swapped trace file.
+again: 0
+Heartbeat CPU 0 instructions: 100000002 cycles: 322812437 heartbeat IPC: 0.239968 cumulative IPC: 0.237519 (Simulation time: 0 hr 15 min 36 sec) 
+Before Swap:
+Trace File 1: 0x2674c700
+Trace File 2: 0x2674c5b0
+Gunzip Command 1: xz -dc ../utility-based-partitioning/server_031.champsimtrace.xz
+Gunzip Command 2: xz -dc ../utility-based-partitioning/server_032.champsimtrace.xz
+0x2674c5b0 : 0 curr: 0
+0x2674c700 : 1
+After Swap:
+Trace File 1: 0x2674c5b0
+Trace File 2: 0x2674c700
+Gunzip Command 1: xz -dc ../utility-based-partitioning/server_032.champsimtrace.xz
+Gunzip Command 2: xz -dc ../utility-based-partitioning/server_031.champsimtrace.xz
+Successfully read from the swapped trace file.
+again: 0
+Before Swap:
+Trace File 1: 0x2674c5b0
+Trace File 2: 0x2674c700
+Gunzip Command 1: xz -dc ../utility-based-partitioning/server_032.champsimtrace.xz
+Gunzip Command 2: xz -dc ../utility-based-partitioning/server_031.champsimtrace.xz
+0x2674c700 : 1 curr: 0
+0x2674c5b0 : 0
+After Swap:
+Trace File 1: 0x2674c700
+Trace File 2: 0x2674c5b0
+Gunzip Command 1: xz -dc ../utility-based-partitioning/server_031.champsimtrace.xz
+Gunzip Command 2: xz -dc ../utility-based-partitioning/server_032.champsimtrace.xz
+Successfully read from the swapped trace file.
+again: 0
+Heartbeat CPU 0 instructions: 110000000 cycles: 364870740 heartbeat IPC: 0.237765 cumulative IPC: 0.237548 (Simulation time: 0 hr 17 min 13 sec) 
+Before Swap:
+Trace File 1: 0x2674c700
+Trace File 2: 0x2674c5b0
+Gunzip Command 1: xz -dc ../utility-based-partitioning/server_031.champsimtrace.xz
+Gunzip Command 2: xz -dc ../utility-based-partitioning/server_032.champsimtrace.xz
+0x2674c5b0 : 0 curr: 0
+0x2674c700 : 1
+After Swap:
+Trace File 1: 0x2674c5b0
+Trace File 2: 0x2674c700
+Gunzip Command 1: xz -dc ../utility-based-partitioning/server_032.champsimtrace.xz
+Gunzip Command 2: xz -dc ../utility-based-partitioning/server_031.champsimtrace.xz
+Successfully read from the swapped trace file.
+again: 0
+Before Swap:
+Trace File 1: 0x2674c5b0
+Trace File 2: 0x2674c700
+Gunzip Command 1: xz -dc ../utility-based-partitioning/server_032.champsimtrace.xz
+Gunzip Command 2: xz -dc ../utility-based-partitioning/server_031.champsimtrace.xz
+0x2674c700 : 1 curr: 0
+0x2674c5b0 : 0
+After Swap:
+Trace File 1: 0x2674c700
+Trace File 2: 0x2674c5b0
+Gunzip Command 1: xz -dc ../utility-based-partitioning/server_031.champsimtrace.xz
+Gunzip Command 2: xz -dc ../utility-based-partitioning/server_032.champsimtrace.xz
+Successfully read from the swapped trace file.
+again: 0
+Heartbeat CPU 0 instructions: 120000001 cycles: 407024922 heartbeat IPC: 0.237224 cumulative IPC: 0.237514 (Simulation time: 0 hr 18 min 46 sec) 
+Before Swap:
+Trace File 1: 0x2674c700
+Trace File 2: 0x2674c5b0
+Gunzip Command 1: xz -dc ../utility-based-partitioning/server_031.champsimtrace.xz
+Gunzip Command 2: xz -dc ../utility-based-partitioning/server_032.champsimtrace.xz
+0x2674c5b0 : 0 curr: 0
+0x2674c700 : 1
+After Swap:
+Trace File 1: 0x2674c5b0
+Trace File 2: 0x2674c700
+Gunzip Command 1: xz -dc ../utility-based-partitioning/server_032.champsimtrace.xz
+Gunzip Command 2: xz -dc ../utility-based-partitioning/server_031.champsimtrace.xz
+Successfully read from the swapped trace file.
+again: 0
+Finished CPU 0 instructions: 100000000 cycles: 420935463 cumulative IPC: 0.237566 (Simulation time: 0 hr 19 min 42 sec) 
+
+ChampSim completed all CPUs
+
+Region of Interest Statistics
+MPKI for 0x2674c5b0 trace file: 87.6403
+MPKI for 0x2674c700 trace file: 110.22
+
+CPU 0 cumulative IPC: 0.237566 instructions: 100000000 cycles: 420935463
+ITLB TOTAL     ACCESS:   18055833  HIT:   16882864  MISS:    1172969  HIT %:    93.5037  MISS %:    6.49634   MPKI: 11.7297
+ITLB LOAD TRANSLATION ACCESS:   18055833  HIT:   16882864  MISS:    1172969  HIT %:    93.5037  MISS %:    6.49634   MPKI: 11.7297
+ITLB PREFETCH  REQUESTED:          0  ISSUED:          0  USEFUL:          0  USELESS:          0
+ITLB USEFUL LOAD PREFETCHES:          0 PREFETCH ISSUED TO LOWER LEVEL:          0  ACCURACY: -nan
+ITLB TIMELY PREFETCHES:          0 LATE PREFETCHES: 0 DROPPED PREFETCHES: 0
+ITLB PREFETCHES SAME FILL-ORIGIN LEVEL: 0 DIFFERENT FILL-ORIGIN LEVEL: 0
+ITLB AVERAGE MISS LATENCY: 9.07511 cycles
+ITLB RQ	ACCESS:   21436261	FORWARD:          0	MERGED:    3121656	TO_CACHE:   18314605
+
+DTLB TOTAL     ACCESS:   23973911  HIT:   22944512  MISS:    1029399  HIT %:    95.7062  MISS %:    4.29383   MPKI: 10.294
+DTLB LOAD TRANSLATION ACCESS:   23973911  HIT:   22944512  MISS:    1029399  HIT %:    95.7062  MISS %:    4.29383   MPKI: 10.294
+DTLB PREFETCH  REQUESTED:          0  ISSUED:          0  USEFUL:          0  USELESS:          0
+DTLB USEFUL LOAD PREFETCHES:          0 PREFETCH ISSUED TO LOWER LEVEL:          0  ACCURACY: -nan
+DTLB TIMELY PREFETCHES:          0 LATE PREFETCHES: 0 DROPPED PREFETCHES: 0
+DTLB PREFETCHES SAME FILL-ORIGIN LEVEL: 0 DIFFERENT FILL-ORIGIN LEVEL: 0
+DTLB AVERAGE MISS LATENCY: 10.556 cycles
+DTLB RQ	ACCESS:   31337588	FORWARD:          0	MERGED:    7340150	TO_CACHE:   23997438
+
+STLB TOTAL     ACCESS:    2202367  HIT:    2184450  MISS:      17917  HIT %:    99.1865  MISS %:   0.813534   MPKI: 0.17917
+STLB LOAD TRANSLATION ACCESS:    2202367  HIT:    2184450  MISS:      17917  HIT %:    99.1865  MISS %:   0.813534   MPKI: 0.17917
+STLB PREFETCH  REQUESTED:          0  ISSUED:          0  USEFUL:          0  USELESS:          0
+STLB USEFUL LOAD PREFETCHES:          0 PREFETCH ISSUED TO LOWER LEVEL:          0  ACCURACY: -nan
+STLB TIMELY PREFETCHES:          0 LATE PREFETCHES: 0 DROPPED PREFETCHES: 0
+STLB PREFETCHES SAME FILL-ORIGIN LEVEL: 0 DIFFERENT FILL-ORIGIN LEVEL: 0
+STLB AVERAGE MISS LATENCY: 93.7865 cycles
+STLB RQ	ACCESS:    2202367	FORWARD:          0	MERGED:          0	TO_CACHE:    2202367
+
+STLB Hit, L1D data hit: 0
+STLB Hit, L2C data hit: 0
+STLB Hit, LLC data hit: 0
+STLB Hit, LLC data miss: 0
+STLB STLB hints to L2: 0
+L1D TOTAL     ACCESS:   30425942  HIT:   28122146  MISS:    2303796  HIT %:    92.4282  MISS %:    7.57181   MPKI: 23.038
+L1D LOAD      ACCESS:   17583581  HIT:   15867573  MISS:    1716008  HIT %:    90.2409  MISS %:    9.75915   MPKI: 17.1601
+L1D RFO       ACCESS:   12842361  HIT:   12254573  MISS:     587788  HIT %:    95.4231  MISS %:    4.57695   MPKI: 5.87788
+L1D PREFETCH  REQUESTED:          0  ISSUED:          0  USEFUL:          0  USELESS:          0
+L1D USEFUL LOAD PREFETCHES:          0 PREFETCH ISSUED TO LOWER LEVEL:          0  ACCURACY: -nan
+L1D TIMELY PREFETCHES:          0 LATE PREFETCHES: 0 DROPPED PREFETCHES: 0
+L1D PREFETCHES SAME FILL-ORIGIN LEVEL: 0 DIFFERENT FILL-ORIGIN LEVEL: 0
+L1D AVERAGE MISS LATENCY: 21.4134 cycles
+L1D RQ	ACCESS:   23545510	FORWARD:          0	MERGED:    5750345	TO_CACHE:   17647394
+L1D WQ	ACCESS:   13757133	FORWARD:     147771	MERGED:      66939	TO_CACHE:   13690194
+
+L1D UNIQUE REGIONS ACCESSED: 0
+L1D REGIONS CONFLICTS: 0
+L1D Cross Page Prefetch Requests: 0
+L1D Same Page Prefetch Requests: 0
+L1D ROI Sum of L1D PQ occupancy: 0
+L1D PREFETCHES PUSHED FROM L2C: 0
+L1I TOTAL     ACCESS:   20840060  HIT:   14919382  MISS:    5920678  HIT %:    71.5899  MISS %:    28.4101   MPKI: 59.2068
+L1I LOAD      ACCESS:   20840060  HIT:   14919382  MISS:    5920678  HIT %:    71.5899  MISS %:    28.4101   MPKI: 59.2068
+L1I PREFETCH  REQUESTED:          0  ISSUED:          0  USEFUL:          0  USELESS:          0
+L1I USEFUL LOAD PREFETCHES:          0 PREFETCH ISSUED TO LOWER LEVEL:          0  ACCURACY: -nan
+L1I TIMELY PREFETCHES:          0 LATE PREFETCHES: 0 DROPPED PREFETCHES: 0
+L1I PREFETCHES SAME FILL-ORIGIN LEVEL: 0 DIFFERENT FILL-ORIGIN LEVEL: 0
+L1I AVERAGE MISS LATENCY: 16.181 cycles
+L1I RQ	ACCESS:   28835953	FORWARD:          0	MERGED:    7399692	TO_CACHE:   21436261
+
+BTB TOTAL     ACCESS:   15087045  HIT:    6095668  MISS:    8991377  HIT %:    40.4033  MISS %:    59.5967   MPKI: 89.9138
+BTB BRANCH_DIRECT_JUMP	ACCESS:    1010731  HIT:     393690  MISS:     617041
+BTB BRANCH_INDIRECT	ACCESS:    6267929  HIT:    2705841  MISS:    3562088
+BTB BRANCH_CONDITIONAL	ACCESS:    3013514  HIT:    2044693  MISS:     968821
+BTB BRANCH_DIRECT_CALL	ACCESS:    2018467  HIT:     444383  MISS:    1574084
+BTB BRANCH_INDIRECT_CALL	ACCESS:     378971  HIT:     106921  MISS:     272050
+BTB BRANCH_RETURN	ACCESS:    2397433  HIT:     400140  MISS:    1997293
+BTB BRANCH_OTHER ACCESS:          0  HIT:          0  MISS:          0
+
+L2C TOTAL     ACCESS:    9377695  HIT:    8659519  MISS:     718176  HIT %:    92.3417  MISS %:    7.65834   MPKI: 7.18176
+L2C LOAD      ACCESS:    7636685  HIT:    7007051  MISS:     629634  HIT %:    91.7551  MISS %:    8.24486   MPKI: 6.29634
+L2C DATA LOAD MPKI: 2.21085
+L2C INSTRUCTION LOAD MPKI: 4.08549
+L2C RFO       ACCESS:     587787  HIT:     523851  MISS:      63936  HIT %:    89.1226  MISS %:    10.8774   MPKI: 0.63936
+L2C WRITEBACK ACCESS:    1127827  HIT:    1115935  MISS:      11892  HIT %:    98.9456  MISS %:    1.05442   MPKI: 0.11892
+L2C LOAD TRANSLATION ACCESS:      25396  HIT:      12682  MISS:      12714  HIT %:     49.937  MISS %:     50.063   MPKI: 0.12714
+L2C PREFETCH  REQUESTED:          0  ISSUED:          0  USEFUL:          0  USELESS:          0
+L2C USEFUL LOAD PREFETCHES:          0 PREFETCH ISSUED TO LOWER LEVEL:          0  ACCURACY: -nan
+L2C TIMELY PREFETCHES:          0 LATE PREFETCHES: 0 DROPPED PREFETCHES: 0
+L2C PREFETCHES SAME FILL-ORIGIN LEVEL: 0 DIFFERENT FILL-ORIGIN LEVEL: 0
+L2C AVERAGE MISS LATENCY: 39.0643 cycles
+L2C RQ	ACCESS:    8249872	FORWARD:          0	MERGED:          0	TO_CACHE:    8249870
+L2C WQ	ACCESS:    1127827	FORWARD:          2	MERGED:          0	TO_CACHE:    1127827
+
+L2C Instructions Evicting Data 136143
+L2C Translations Evicting Data 9154
+L2C Data Evicting Data 146706
+L2C Instructions Evicting Instructions 269622
+L2C Translations Evicting Instructions 2739
+L2C Data Evicting Instructions 129307
+L2C Instructions Evicting Translations 2779
+L2C Translations Evicting Translations 816
+L2C Data Evicting Translations 8974
+L2C Dense regions hint from L2: 0
+PSCL5 TOTAL     ACCESS:      17917  HIT:      17917  MISS:          0  HIT %:        100  MISS %:          0   MPKI: 0
+PSCL5 LOAD TRANSLATION ACCESS:      17917  HIT:      17917  MISS:          0  HIT %:        100  MISS %:          0   MPKI: 0
+PSCL5 PREFETCH  REQUESTED:          0  ISSUED:          0  USEFUL:          0  USELESS:          0
+PSCL5 USEFUL LOAD PREFETCHES:          0 PREFETCH ISSUED TO LOWER LEVEL:          0  ACCURACY: -nan
+PSCL5 TIMELY PREFETCHES:          0 LATE PREFETCHES: 0 DROPPED PREFETCHES: 0
+PSCL5 PREFETCHES SAME FILL-ORIGIN LEVEL: 0 DIFFERENT FILL-ORIGIN LEVEL: 0
+
+PSCL4 TOTAL     ACCESS:      17231  HIT:      17070  MISS:        161  HIT %:    99.0656  MISS %:   0.934362   MPKI: 0.00161
+PSCL4 LOAD TRANSLATION ACCESS:      17231  HIT:      17070  MISS:        161  HIT %:    99.0656  MISS %:   0.934362   MPKI: 0.00161
+PSCL4 PREFETCH  REQUESTED:          0  ISSUED:          0  USEFUL:          0  USELESS:          0
+PSCL4 USEFUL LOAD PREFETCHES:          0 PREFETCH ISSUED TO LOWER LEVEL:          0  ACCURACY: -nan
+PSCL4 TIMELY PREFETCHES:          0 LATE PREFETCHES: 0 DROPPED PREFETCHES: 0
+PSCL4 PREFETCHES SAME FILL-ORIGIN LEVEL: 0 DIFFERENT FILL-ORIGIN LEVEL: 0
+
+PSCL3 TOTAL     ACCESS:      17889  HIT:      17727  MISS:        162  HIT %:    99.0944  MISS %:   0.905584   MPKI: 0.00162
+PSCL3 LOAD TRANSLATION ACCESS:      17889  HIT:      17727  MISS:        162  HIT %:    99.0944  MISS %:   0.905584   MPKI: 0.00162
+PSCL3 PREFETCH  REQUESTED:          0  ISSUED:          0  USEFUL:          0  USELESS:          0
+PSCL3 USEFUL LOAD PREFETCHES:          0 PREFETCH ISSUED TO LOWER LEVEL:          0  ACCURACY: -nan
+PSCL3 TIMELY PREFETCHES:          0 LATE PREFETCHES: 0 DROPPED PREFETCHES: 0
+PSCL3 PREFETCHES SAME FILL-ORIGIN LEVEL: 0 DIFFERENT FILL-ORIGIN LEVEL: 0
+
+PSCL2 TOTAL     ACCESS:      17917  HIT:      10637  MISS:       7280  HIT %:    59.3682  MISS %:    40.6318   MPKI: 0.0728
+PSCL2 LOAD TRANSLATION ACCESS:      17917  HIT:      10637  MISS:       7280  HIT %:    59.3682  MISS %:    40.6318   MPKI: 0.0728
+PSCL2 PREFETCH  REQUESTED:          0  ISSUED:          0  USEFUL:          0  USELESS:          0
+PSCL2 USEFUL LOAD PREFETCHES:          0 PREFETCH ISSUED TO LOWER LEVEL:          0  ACCURACY: -nan
+PSCL2 TIMELY PREFETCHES:          0 LATE PREFETCHES: 0 DROPPED PREFETCHES: 0
+PSCL2 PREFETCHES SAME FILL-ORIGIN LEVEL: 0 DIFFERENT FILL-ORIGIN LEVEL: 0
+
+LLC TOTAL     ACCESS:     832061  HIT:     782012  MISS:      50049  HIT %:    93.9849  MISS %:    6.01506   MPKI: 0.50049
+LLC LOAD      ACCESS:     629634  HIT:     584752  MISS:      44882  HIT %:    92.8717  MISS %:    7.12827   MPKI: 0.44882
+LLC RFO       ACCESS:      63934  HIT:      61769  MISS:       2165  HIT %:    96.6137  MISS %:     3.3863   MPKI: 0.02165
+LLC WRITEBACK ACCESS:     125779  HIT:     125655  MISS:        124  HIT %:    99.9014  MISS %:  0.0985856   MPKI: 0.00124
+LLC LOAD TRANSLATION ACCESS:      12714  HIT:       9836  MISS:       2878  HIT %:    77.3635  MISS %:    22.6365   MPKI: 0.02878
+LLC PREFETCH  REQUESTED:          0  ISSUED:          0  USEFUL:          0  USELESS:          0
+LLC USEFUL LOAD PREFETCHES:          0 PREFETCH ISSUED TO LOWER LEVEL:          0  ACCURACY: -nan
+LLC TIMELY PREFETCHES:          0 LATE PREFETCHES: 0 DROPPED PREFETCHES: 0
+LLC PREFETCHES SAME FILL-ORIGIN LEVEL: 0 DIFFERENT FILL-ORIGIN LEVEL: 0
+LLC AVERAGE MISS LATENCY: 136.938 cycles
+LLC RQ	ACCESS:     706284	FORWARD:          0	MERGED:          0	TO_CACHE:     706282
+LLC WQ	ACCESS:     125779	FORWARD:          2	MERGED:          0	TO_CACHE:     125779
+
+LLC Dense regions hint to LLC: 0
+
+RAW hits: 642220
+Loads Generated: 24187730
+Loads sent to L1D: 23545510
+Stores Generated: 13757135
+Stores sent to L1D: 13757133
+Major fault: 0 Minor fault: 5539
+Allocated PAGES: 5539
+
+DRAM Statistics
+ CHANNEL 0
+ RQ ROW_BUFFER_HIT:      17538  ROW_BUFFER_MISS:      32387
+ DBUS_CONGESTED:          1
+ WQ ROW_BUFFER_HIT:        121  ROW_BUFFER_MISS:        745  FULL:          0
+
+ AVG_CONGESTED_CYCLE: 6
+ All warmup complete: 2
+Channel 0 Bank busy for read cycles: 0
+Channel 0 Bank busy for write cycles: 0
+Channel 0
+Rank 0
+0banks busy for read cycles: 416715746
+0banks busy for write cycles: 664
+1banks busy for read cycles: 3422594
+1banks busy for write cycles: 106223
+2banks busy for read cycles: 313185
+2banks busy for write cycles: 14038
+3banks busy for read cycles: 133637
+3banks busy for write cycles: 4988
+4banks busy for read cycles: 59757
+4banks busy for write cycles: 1628
+5banks busy for read cycles: 45619
+5banks busy for write cycles: 432
+6banks busy for read cycles: 39717
+6banks busy for write cycles: 145
+7banks busy for read cycles: 37055
+7banks busy for write cycles: 0
+8banks busy for read cycles: 40036
+8banks busy for write cycles: 0
+
+CPU 0 Branch Prediction Accuracy: 94.9053% MPKI: 9.09414 Average ROB Occupancy at Mispredict: 7.01824
+Branch types
+NOT_BRANCH: 82149645 82.1496%
+BRANCH_DIRECT_JUMP: 1010731 1.01073%
+BRANCH_INDIRECT: 6267929 6.26793%
+BRANCH_CONDITIONAL: 5776776 5.77678%
+BRANCH_DIRECT_CALL: 2018467 2.01847%
+BRANCH_INDIRECT_CALL: 378971 0.378971%
+BRANCH_RETURN: 2397433 2.39743%
+BRANCH_OTHER: 0 0%
+
+DRAM PAGES: 1048576
+Allocated PAGES: 5539

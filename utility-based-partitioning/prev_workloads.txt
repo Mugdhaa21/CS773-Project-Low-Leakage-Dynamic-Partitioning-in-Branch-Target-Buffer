@@ -1,0 +1,8 @@
+400.perlbench-41B.champsimtrace.xz
+403.gcc-17B.champsimtrace.xz
+429.mcf-217B.champsimtrace.xz
+445.gobmk-17B.champsimtrace.xz
+447.dealII-3B.champsimtrace.xz
+456.hmmer-191B.champsimtrace.xz
+458.sjeng-1088B.champsimtrace.xz
+483.xalancbmk-736B.champsimtrace.xz

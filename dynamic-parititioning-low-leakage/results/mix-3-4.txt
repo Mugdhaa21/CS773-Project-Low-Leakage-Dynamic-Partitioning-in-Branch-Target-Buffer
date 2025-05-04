@@ -1,0 +1,48 @@
+
+*** ChampSim Multicore Out-of-Order Simulator ***
+
+Warmup Instructions: 25000000
+Simulation Instructions: 100000000
+Number of CPUs: 1
+LLC sets: 2048
+LLC ways: 16
+Off-chip DRAM Size: 4096 MB Channels: 1 Width: 64-bit Data Rate: 6400 MT/s
+CPU 0 runs ../utility-based-partitioning/server_038.champsimtrace.xz
+AAAAA
+.xz
+../utility-based-partitioning/server_038.champsimtrace.xz 0
+ABDUBDIBDIBDIBD
+0x4c50bc0
+CPU 0 runs ../utility-based-partitioning/server_039.champsimtrace.xz
+AAAAA
+.xz
+../utility-based-partitioning/server_039.champsimtrace.xz 1
+0x4c50e60
+CPU 0 Bimodal branch predictor
+BTB has LRU replacement policy
+ITLB has LRU replacement policy
+DTLB has LRU replacement policy
+STLB has LRU replacement policy
+L1I has LRU replacement policy
+L1D has LRU replacement policy
+L2C has LRU replacement policy
+LLC has LRU replacement policy
+Heartbeat CPU 0 instructions: 10000000 cycles: 2775933 heartbeat IPC: 3.60239 cumulative IPC: 3.60239 (Simulation time: 0 hr 0 min 33 sec) 
+Heartbeat CPU 0 instructions: 20000002 cycles: 5550940 heartbeat IPC: 3.6036 cumulative IPC: 3.60299 (Simulation time: 0 hr 1 min 2 sec) 
+
+Warmup complete CPU 0 instructions: 25000001 cycles: 6938034 (Simulation time: 0 hr 1 min 17 sec) 
+
+Before Swap:
+Trace File 1: 0x4c50d10
+Trace File 2: 0x4c50e60
+Gunzip Command 1: xz -dc ../utility-based-partitioning/server_038.champsimtrace.xz
+Gunzip Command 2: xz -dc ../utility-based-partitioning/server_039.champsimtrace.xz
+0x4c50e60 : 1 curr: 0
+0x4c50d10 : 0
+After Swap:
+Trace File 1: 0x4c50e60
+Trace File 2: 0x4c50d10
+Gunzip Command 1: xz -dc ../utility-based-partitioning/server_039.champsimtrace.xz
+Gunzip Command 2: xz -dc ../utility-based-partitioning/server_038.champsimtrace.xz
+Successfully read from the swapped trace file.
+Heartbeat CPU 0 instructions: 30000000 cycles: 24907102 heartbeat IPC: 0.516631 cumulative IPC: 0.278256 (Simulation time: 0 hr 2 min 5 sec) 

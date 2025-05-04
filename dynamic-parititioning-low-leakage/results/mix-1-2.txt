@@ -1,0 +1,34 @@
+
+*** ChampSim Multicore Out-of-Order Simulator ***
+
+Warmup Instructions: 25000000
+Simulation Instructions: 100000000
+Number of CPUs: 1
+LLC sets: 2048
+LLC ways: 16
+Off-chip DRAM Size: 4096 MB Channels: 1 Width: 64-bit Data Rate: 6400 MT/s
+CPU 0 runs ../utility-based-partitioning/server_036.champsimtrace.xz
+AAAAA
+.xz
+../utility-based-partitioning/server_036.champsimtrace.xz 0
+ABDUBDIBDIBDIBD
+0x26c4fbc0
+CPU 0 runs ../utility-based-partitioning/server_037.champsimtrace.xz
+AAAAA
+.xz
+../utility-based-partitioning/server_037.champsimtrace.xz 1
+0x26c4fe60
+CPU 0 Bimodal branch predictor
+BTB has LRU replacement policy
+ITLB has LRU replacement policy
+DTLB has LRU replacement policy
+STLB has LRU replacement policy
+L1I has LRU replacement policy
+L1D has LRU replacement policy
+L2C has LRU replacement policy
+LLC has LRU replacement policy
+Heartbeat CPU 0 instructions: 10000000 cycles: 2718072 heartbeat IPC: 3.67908 cumulative IPC: 3.67908 (Simulation time: 0 hr 0 min 31 sec) 
+Heartbeat CPU 0 instructions: 20000002 cycles: 5435387 heartbeat IPC: 3.6801 cumulative IPC: 3.67959 (Simulation time: 0 hr 1 min 1 sec) 
+
+Warmup complete CPU 0 instructions: 25000001 cycles: 6793648 (Simulation time: 0 hr 1 min 16 sec) 
+

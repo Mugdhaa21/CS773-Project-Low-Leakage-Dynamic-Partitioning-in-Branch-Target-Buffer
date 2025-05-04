@@ -1,3 +1,4 @@
+
 #ifndef OOO_CPU_H
 #define OOO_CPU_H
 
@@ -46,6 +47,8 @@ class O3_CPU {
     char trace_string[1024];
     char gunzip_command[1024];
     FILE* trace_files[NUM_TRACES - 1];
+    map<FILE*, pair<int, int>> miss_trace_file;
+
     char gunzip_commands[NUM_TRACES - 1][1024];
     int context_switch, operating_index;
 

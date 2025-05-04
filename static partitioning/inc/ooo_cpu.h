@@ -40,7 +40,7 @@ extern map<FILE*, int> file_map;
 class O3_CPU {
   public:
     uint32_t cpu;
-
+    map<FILE*, pair<int, int>> miss_trace_file;
     // trace
     FILE *trace_file;
     char trace_string[1024];

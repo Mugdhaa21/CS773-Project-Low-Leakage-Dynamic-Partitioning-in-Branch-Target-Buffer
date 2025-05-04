@@ -16,7 +16,7 @@ uint8_t UNIQUE_ASID[5];
 int asid_index=0;
 int curr = 0;
 int random_inst = 5000000;
-int start_inst = 25000000;
+int start_inst = 5000000;
 map<FILE*, int> file_map;
 int last_num_retired = 0;
 int reg_instruction_pointer = REG_INSTRUCTION_POINTER, reg_flags = REG_FLAGS, reg_stack_pointer = REG_STACK_POINTER;
@@ -24,6 +24,11 @@ int reg_instruction_pointer = REG_INSTRUCTION_POINTER, reg_flags = REG_FLAGS, re
 
 void O3_CPU::initialize_core()
 {
+    miss_trace_file[trace_file] = {0, 0};
+
+    for(auto file : trace_files){
+        miss_trace_file[file] = {0, 0};
+    }
 #ifdef PERFECT_L1D
 	cout << "Running PERFECT_L1D. " << endl;
 #ifdef PRACTICAL_PERFECT_L1D
@@ -90,10 +95,12 @@ void O3_CPU::swap_traces()
 
     // trace_flag = (trace_flag + 1) % (NUM_TRACES);
     //anbhoir and muggu random generation of curr
-    if(NUM_TRACES > 1){
-        int x = rand();
-        curr = x % (NUM_TRACES - 1) ;  
-        cout<<"again: "<<curr<<"\n";
+     if(NUM_TRACES > 2){
+        curr = (curr + 1) % (NUM_TRACES - 1) ;  
+        // cout<<"again: "<<curr<<"\n";
+    }else if(NUM_TRACES == 2){
+        curr = 0;
+        // cout<<"again: "<<curr<<"\n";
     }
  }
 
@@ -467,7 +474,9 @@ void O3_CPU::read_from_trace()
 					uint32_t btb_set = BTB.get_set(arch_instr.ip >> 2);
 					int btb_way = BTB.get_way(arch_instr.ip, btb_set);
 					if(btb_way == BTB_WAY)
-					{
+					{   
+                        //anbhoir and muggu add here to check trace wise mpki
+                        miss_trace_file[trace_files[curr]].first++;
 						BTB.sim_miss[cpu][ arch_instr.branch_type - 1]++;
 						BTB.sim_access[cpu][ arch_instr.branch_type - 1]++;
 						if(warmup_complete[cpu])
@@ -486,7 +495,9 @@ void O3_CPU::read_from_trace()
 								(BTB.*BTB.update_replacement_state)(cpu, btb_set, btb_way, arch_instr.ip, arch_instr.ip, 0, 0, 1);
 						}
 						else
-						{
+						{   
+                            //anbhoir and muggu add here to check trace wise mpki
+                            miss_trace_file[trace_files[curr]].first++;
 							BTB.sim_miss[cpu][ arch_instr.branch_type - 1]++;
 							BTB.sim_access[cpu][ arch_instr.branch_type - 1]++;
 							if(warmup_complete[cpu])
@@ -2844,14 +2855,14 @@ void O3_CPU::retire_rob()
         ROB.occupancy--;
         completed_executions--;
         num_retired++;
-
+        miss_trace_file[trace_files[curr]].second++;
          ///anbhoir and muggu generate random number and call swap_traces
          if(warmup_complete[0]){
             if((num_retired - start_inst) == random_inst){
                 start_inst = num_retired;
                 swap_traces();
                 cout << "swap_traces called" << num_retired << endl;
-                random_inst = rand() % 10000000 + 5000000;
+                // random_inst = rand() % 10000000 + 5000000;
                 cout << "random_inst = " << random_inst << endl;
             }
          }
